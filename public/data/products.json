@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Laptop",
+    "des": "A high-performance laptop suitable for work and gaming."
+  },
+  {
+    "id": 2,
+    "title": "Smartphone",
+    "des": "Latest 5G smartphone with powerful processor and great camera."
+  },
+  {
+    "id": 3,
+    "title": "Headphones",
+    "des": "Noise-cancelling wireless headphones with long battery life."
+  },
+  {
+    "id": 4,
+    "title": "Smartwatch",
+    "des": "Fitness tracking smartwatch with heart rate monitor."
+  },
+  {
+    "id": 5,
+    "title": "Camera",
+    "des": "DSLR camera with 24MP lens and 4K video recording."
+  }
+]
