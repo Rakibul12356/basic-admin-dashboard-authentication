@@ -1,12 +1,39 @@
-# React + Vite
+# My React Firebase Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React.js project** using **Firebase Authentication**.
+It includes email/password registration, Google login, role-based dashboard access, and product details page.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Features
 
-## Expanding the ESLint configuration
+1. **User Authentication**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   - Email & Password registration
+   - Login with Email & Password
+   - Login with Google account
+   - Logout functionality
+2. **Role-based Access**
+
+   - Admin users can access `/dashboard`
+   - Non-admin users redirected to `/login`
+3. **Products**
+
+   - Products list page
+   - Product details page
+   - Dynamic routing using React Router v6
+4. **UI**
+
+   - Styled using Tailwind CSS + DaisyUI
+   - Responsive design
+   - Clean buttons, cards, and forms
+
+---
+
+## ⚡ Setup Instructions
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/username/project-name.git
+```

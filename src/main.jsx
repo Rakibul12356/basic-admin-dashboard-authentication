@@ -6,6 +6,10 @@ import Home from './Home';
 import Products from './Products';
 import Login from './Login';
 import ProductDetails from './ProductDetails';
+import { AuthProvider } from './context/AuthContext';
+import ProtectedRoute from './Routes/ProtectedRoute';
+import Dashboard from './DashBoard';
+import Register from './Rejister';
 
 const router = createBrowserRouter([
   {
@@ -30,11 +34,14 @@ const router = createBrowserRouter([
       },
     ]
   },
-  {path:"/login",element:<Login/>}
+  {path:"/login",element:<Login/>},
+  { path: "register", element: <Register /> },
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+     <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </StrictMode>,
 );
